@@ -1,0 +1,25 @@
+{
+  "name": "udemy-typescript-course",
+  "version": "1.0.0",
+  "description": "Growth Session Project for Udemy TS Course",
+  "main": "index.js",
+  "scripts": {
+    "dev": "lite-server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vehikl/udemy-typescript-course.git"
+  },
+  "author": "vehikl",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/vehikl/udemy-typescript-course/issues"
+  },
+  "homepage": "https://github.com/vehikl/udemy-typescript-course#readme",
+  "devDependencies": {
+    "typescript": "^4.5.4"
+  },
+  "dependencies": {
+    "lite-server": "^2.6.1"
+  }
+}
