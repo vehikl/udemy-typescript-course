@@ -9,7 +9,7 @@
     <script src="dist/app.js" defer></script>
   </head>
   <body>
-    <template id="project-input">
+    <div id="project-input">
       <form>
         <div class="form-control">
           <label for="title">Title</label>
@@ -23,20 +23,20 @@
           <label for="people">People</label>
           <input type="number" id="people" step="1" min="0" max="10" />
         </div>
-        <button type="submit">ADD PROJECT</button>
+        <button type="submit" onClick="new Project('1', '2', '3')">ADD PROJECT</button>
       </form>
-    </template>
-    <template id="single-project">
+    </div>
+    <div id="single-project">
       <li></li>
-    </template>
-    <template id="project-list">
+    </div>
+    <div id="project-list">
       <section class="projects">
         <header>
           <h2></h2>
         </header>
         <ul></ul>
       </section>
-    </template>
+    </div>
     <div id="app"></div>
   </body>
 </html>

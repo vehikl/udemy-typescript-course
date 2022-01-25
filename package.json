@@ -6,7 +6,7 @@
   "scripts": {
     "dev": "lite-server",
     "test": "npx jest",
-    "build": "tsc --project ./tsconfig.json"
+    "build": "tsc --project ./tsconfig.json -w"
   },
   "repository": {
     "type": "git",
